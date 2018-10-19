@@ -71,7 +71,3 @@ func homePost(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(string(test))
 	w.Write(test)
 }
-
-func verify(r *http.Request) (bool, error) {
-
-}
